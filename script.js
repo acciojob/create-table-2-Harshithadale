@@ -7,7 +7,7 @@ function createTable() {
     for(let i = 0;i<rn;i++){
         let row = `<tr>`
         for(let j=0;j<cn;j++){
-            row += `<td>Row-${i} Column${j} </td>`
+            row += `<td>Row-${i} Column-${j} </td>`
         }
         row +=`</tr>`
         table.innerHTML += row
